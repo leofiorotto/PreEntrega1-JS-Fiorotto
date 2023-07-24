@@ -17,10 +17,10 @@ function calcularCosto() {
         return;
       }
   
-      costoTotal += precioProducto;
+      costoTotal = costoTotal + precioProducto;
     }
   
-    alert (`El costo total de los ${cantidadProductos} productos seleccionados es: $ ${costoTotal}`);
+    alert (`El costo total de los ${cantidadProductos} productos seleccionados es: $${costoTotal}`);
   }
   
   calcularCosto();
